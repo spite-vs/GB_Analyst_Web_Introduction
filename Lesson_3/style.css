@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'SFNS Display Thin';
+    src: url('fonts/sfns_display_thin.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/sfns_display_thin.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/sfns_display_thin.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/sfns_display_thin.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/sfns_display_thin.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/sfns_display_thin.svg#sfns_display_thin') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    background-image: linear-gradient(to bottom, #4b6cb7, #182848);
+    font-family: 'SFNS Display Thin', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+p,
+ul,
+ol {
+    color: #FFFFFF;
+    width: 550px;
+    margin-left: 10px;
+}
+
+h1,
+h2,
+h3 {
+    color: #000000;
+}
+
+
+a {
+    color: #d6d6d6;
+}
+
+.min {
+    color: #bebcbc;
+    font-size: 0.8rem;
+}
+
+img {
+    width: 400px;
+    border: 1px solid #0e1a31;
+    padding: 3px 3px 3px 3px;
+    margin-left: 40px;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #cbdeee;
+    padding: 5px 15px 5px 15px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+nav a:hover {
+    background-color: rgb(217, 220, 255);
+}
+
+a:hover {
+    color: rgb(141, 168, 255);
+}
+
+span {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+
+button {
+    color: #000000;
+    background-color: #cbdeee;
+    padding: 3px 8px 3px 8px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
