@@ -18,6 +18,7 @@ body {
     background-image: linear-gradient(to bottom, #4b6cb7, #182848);
     font-family: 'SFNS Display Thin', sans-serif;
     letter-spacing: 0.03em;
+    min-height: 100vh
 }
 
 p,

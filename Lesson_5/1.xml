@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<req>
+    <user>
+        <surname>Иванов</surname>
+        <name>Иван</name>
+        <patronymic>Иванович</patronymic>
+    </user>
+    <birthinfo>
+        <birthdate>01.01.1990</birthdate>
+        <birthplace>Москва</birthplace>
+    </birthinfo>
+    <phone>8 926 766 48 48</phone>
+</req>
